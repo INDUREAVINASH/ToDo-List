@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <script src="https://kit.fontawesome.com/aed6231f05.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header> ToDo List </header>
+
+        <div class="inputField">
+            <input type="text" placeholder="Add your new todo">
+            <button><i class="fas fa-plus-circle"></i></button>
+        </div>
+
+        <ul class="todoList">
+            <!-- Data comes from local storage -->
+        </ul>
+
+        <div class="footer">
+            <span>You Have <span class="pending"></span> Pending Task</span>
+            <button>Clear All</button>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
